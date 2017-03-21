@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 55px;
+    background: #800080
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a.brand-logo {
+    float: left;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    padding-top: 5px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+}
+
+nav li a {
+    padding: 10px 1.5rem;
+}
+
+#banner {
+    padding: 5% 1rem;
+    text-align: center;
+}
+
+main  {
+    text-align: center;
+}
+
+main .areas {
+    width: 27%;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    padding: 0.5rem 1rem 1rem;
+    margin: 1rem 0.5rem;
+
+}
+
+
+
+/*Desktop Devices  > 992px*/
+@media screen and (min-width:992.1px){
+
+}
+
+/*Tablet Devices  <= 992px*/
+@media screen and (max-width:992px) {
+    main .areas {
+        width: 40%;
+    }
+}
+
+/*Mobile Devices  <= 600px*/
+@media screen and (max-width: 600px) {
+    main .areas {
+        width: 80%;
+    }
+}
+
+
+/*very small screen*/
+@media screen and (max-width:400px) {
+
+}
