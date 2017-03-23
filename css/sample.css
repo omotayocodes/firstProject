@@ -36,6 +36,7 @@ nav li a {
 #banner {
     padding: 5% 1rem;
     text-align: center;
+    background-color: lightgrey;
 }
 
 main  {
